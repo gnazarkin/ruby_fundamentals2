@@ -10,5 +10,9 @@ def display_hash(hash)
 	end
 end
 
-
 display_hash(students)
+
+students[:cohort4] = 43
+
+puts students.keys 
+
