@@ -20,3 +20,6 @@ students.each {|key,value| students[key]=(value*1.05).to_i}
 
 display_hash(students)
 
+students.delete(:cohort2)
+
+display_hash(students)
