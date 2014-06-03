@@ -15,3 +15,6 @@ output_list(grocery_list)
 puts grocery_list.length
 
 if grocery_list.include?("bananas") then puts "You need to pick up bananas" else puts "You dont need to pick up banans today" end
+
+puts grocery_list[1]
+
