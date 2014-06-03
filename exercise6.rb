@@ -18,3 +18,8 @@ if grocery_list.include?("bananas") then puts "You need to pick up bananas" else
 
 puts grocery_list[1]
 
+grocery_list.sort!
+
+output_list(grocery_list)
+
+
