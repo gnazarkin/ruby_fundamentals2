@@ -23,3 +23,12 @@ display_hash(students)
 students.delete(:cohort2)
 
 display_hash(students)
+
+total = 0
+students.each do |key, value|
+	total +=value
+end
+
+puts total
+
+
