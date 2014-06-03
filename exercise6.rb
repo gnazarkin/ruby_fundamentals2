@@ -22,4 +22,7 @@ grocery_list.sort!
 
 output_list(grocery_list)
 
+grocery_list.delete("salmon")
+
+output_list(grocery_list)
 
